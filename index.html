@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery Image Gallery</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="gallery">
+   
+    <ul class="img-list">
+      <li>
+        <a href="images/img-1-lg.jpg"><img src="images/img-1-sm.jpg"></a>
+      </li>
+      <li>
+         <a href="images/img-2-lg.jpg"><img src="images/img-2-sm.jpg"></a>
+      </li>
+      <li>
+        <a href="images/img-3-lg.jpg"><img src="images/img-3-sm.jpg"></a>
+      </li>
+      <li>
+        <a href="images/img-4-lg.jpg"><img src="images/img-4-sm.jpg"></a>
+      </li>
+    </ul><!-- //img-list -->
+    
+    <div class="lightbox">
+      <div class="overlay"></div>
+      <figure>
+        <span class="prev">← prev</span>
+        <span class="next">next →</span>
+        <img src="#">
+      </figure>
+    </div><!-- //lightbox -->
+  </div><!-- //img-gallery -->
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="functions.js"></script>
+</body>
+</html>
